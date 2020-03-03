@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView
+                android:text="단어장"
+                android:id="@+id/wordsBtn"
+                android:textSize="70dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView
+                android:text="나만의 단어장"
+                android:id="@+id/myWordsBtn"
+                android:textSize="70dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView
+                android:text="퀴즈"
+                android:id="@+id/quizBtn"
+                android:textSize="70dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

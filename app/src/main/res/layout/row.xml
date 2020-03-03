@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ToggleButton
+            android:text=""
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image"
+            android:id="@+id/myBtn" android:textOff="" android:textOn=""/>
+    <TextView
+            android:gravity="center"
+            android:id="@+id/engText"
+            android:layout_weight="1"
+            android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20sp"/>
+    <TextView
+            android:gravity="center"
+            android:id="@+id/korText"
+            android:layout_weight="1"
+            android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20sp"/>
+</LinearLayout>
